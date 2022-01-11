@@ -11,3 +11,18 @@
   justify-content: center;
   align-items: center;
 }
+.card {
+  width: 300px;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  background-color: rgb(237, 237, 237);
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
