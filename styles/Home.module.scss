@@ -1,11 +1,10 @@
 .container {
-  padding: 0 2rem;
+  background: yellowgreen;
 }
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+  padding-top: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,6 +17,15 @@
   border-radius: 0.5rem;
   text-align: center;
   background-color: rgb(237, 237, 237);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+  cursor: pointer;
+}
+.card:hover {
+  box-shadow: rgba(50, 50, 93, 0.35) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transform: scale(1.1);
 }
 
 .cardContainer {
